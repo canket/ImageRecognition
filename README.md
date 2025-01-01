@@ -17,6 +17,7 @@
 - 圖像處理：OpenCV
 
 ## 專案結構
+
 架構專案目錄/
 ├── app.py # Flask 應用程式主文件
 ├── templates/ # HTML 模板
@@ -36,19 +37,17 @@
 
 bash
 
-git clone https://github.com/your-username/image-recognition.git
+git clone https://github.com/canket/ImageRecognition.git
 cd image-recognition
 
 2. 安裝相依套件
 
 bash
-
 pip install -r requirements.txt
 
 3. 運行 Flask 應用程式
 
 bash
-
 python app.py
 
 4. 在瀏覽器中訪問 http://localhost:5000 即可使用
