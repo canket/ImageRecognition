@@ -35,6 +35,34 @@
 - Flask 3.0.0+
 - 現代瀏覽器 (Chrome, Firefox, Safari, Edge)
 
+## 專案架構
+
+```
+ImageRecognition/
+├── app.py                 # Flask 應用主程式
+├── requirements.txt       # 專案依賴套件
+├── README.md             # 專案說明文件
+├── .gitignore            # Git 忽略檔案
+├── static/               # 靜態資源目錄
+│   ├── css/
+│   │   └── styles.css    # 樣式表
+│   ├── js/
+│   │   └── scripts.js    # JavaScript 腳本
+│   └── uploads/          # 上傳圖片暫存目錄
+└── templates/            # 模板目錄
+    └── index.html        # 主頁面模板
+```
+
+### 目錄說明
+
+- `app.py`: Flask 後端程式，處理圖片上傳和辨識邏輯
+- `static/`: 存放靜態檔案
+  - `css/`: 樣式表檔案
+  - `js/`: JavaScript 檔案
+  - `uploads/`: 暫存上傳的圖片
+- `templates/`: HTML 模板檔案
+- `requirements.txt`: 專案相依套件清單
+
 ## 安裝步驟
 
 1. 克隆專案：
