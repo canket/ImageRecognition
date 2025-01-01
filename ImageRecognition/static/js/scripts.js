@@ -1,82 +1,61 @@
+// 確保這段 JavaScript 正確執行
 document.addEventListener('DOMContentLoaded', function() {
-    function init() {
-        // 獲取必要的 DOM 元素
-        const uploadForm = document.getElementById('upload-form');
-        const imageInput = document.getElementById('image-input');
-        const previewImage = document.getElementById('preview-image');
-        const resultContainer = document.getElementById('result-container');
-        const loadingSpinner = document.getElementById('loading-spinner');
+    // 獲取元素
+    const form = document.getElementById('uploadForm');
+    const fileInput = document.getElementById('fileInput');
+    const dropZone = document.getElementById('dropZone');
+    const previewContainer = document.getElementById('previewContainer');
+    const previewImage = document.getElementById('previewImage');
+    const submitBtn = document.getElementById('submitBtn');
+    const messageAlert = document.getElementById('messageAlert');
 
-        // 圖片預覽功能
-        imageInput.addEventListener('change', function(e) {
-            const file = e.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    previewImage.src = e.target.result;
-                    previewImage.style.display = 'block';
-                }
-                reader.readAsDataURL(file);
-            }
-        });
-
-        // 處理表單提交
-        uploadForm.addEventListener('submit', async function(e) {
-            e.preventDefault();
-            
-            // 顯示載入動畫
-            loadingSpinner.style.display = 'block';
-            resultContainer.innerHTML = '';
-
-            // 準備表單數據
-            const formData = new FormData(uploadForm);
-
-            try {
-                // 發送 AJAX 請求
-                const response = await fetch('/analyze', {
-                    method: 'POST',
-                    body: formData
-                });
-
-                if (!response.ok) {
-                    throw new Error('網路回應不正常');
-                }
-
-                const data = await response.json();
-                
-                // 顯示結果
-                displayResults(data);
-
-            } catch (error) {
-                console.error('錯誤:', error);
-                resultContainer.innerHTML = `
-                    <div class="error-message">
-                        處理過程中發生錯誤：${error.message}
-                    </div>
-                `;
-            } finally {
-                // 隱藏載入動畫
-                loadingSpinner.style.display = 'none';
-            }
-        });
-
-        // 顯示辨識結果
-        function displayResults(data) {
-            resultContainer.innerHTML = `
-                <div class="results">
-                    <h3>辨識結果：</h3>
-                    <ul>
-                        ${data.results.map(result => `
-                            <li>
-                                <span class="label">${result.label}</span>
-                                <span class="confidence">${(result.confidence * 100).toFixed(2)}%</span>
-                            </li>
-                        `).join('')}
-                    </ul>
-                </div>
-            `;
-        }
+    // 檢查元素是否存在
+    if (!form || !fileInput || !dropZone || !previewContainer || !previewImage || !submitBtn || !messageAlert) {
+        console.error('找不到必要的 DOM 元素');
+        return;
     }
 
-    init();
+    // Debug 用的日誌
+    console.log('JavaScript 已載入');
+
+    // 檔案上傳處理
+    form.onsubmit = async function(e) {
+        e.preventDefault();
+        console.log('表單提交');
+
+        try {
+            const formData = new FormData(this);
+            
+            // 檢查是否有檔案
+            if (!formData.has('image')) {
+                throw new Error('請選擇檔案');
+            }
+
+            const response = await fetch('/upload', {
+                method: 'POST',
+                body: formData
+            });
+
+            const data = await response.json();
+            
+            if (!response.ok) {
+                throw new Error(data.message || '上傳失敗');
+            }
+
+            showMessage(data.message);
+            console.log('上傳成功:', data);
+
+        } catch (error) {
+            showMessage(error.message, true);
+            console.error('上傳錯誤:', error);
+        }
+    };
+
+    // 其他事件處理器保持不變...
 });
+
+// 測試用的函數
+function testUpload() {
+    const file = fileInput.files[0];
+    console.log('選擇的檔案:', file);
+}
