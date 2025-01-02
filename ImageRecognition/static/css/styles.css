@@ -12,3 +12,260 @@ h1 {
     bottom: 0;
     width: 100%;
 }
+
+.drop-zone {
+    width: 100%;
+    min-height: 200px;
+    border: 3px dashed #2196F3;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    will-change: transform, opacity;
+}
+
+.drop-zone:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+
+.drop-zone.dragover {
+    transform: scale(1.02);
+    border-color: #2196F3;
+    background: linear-gradient(145deg, #e3f2fd, #bbdefb);
+    animation: pulse 1s infinite;
+}
+
+.drop-zone-icon {
+    font-size: 3.5rem;
+    color: #2196F3;
+    margin-bottom: 15px;
+    animation: bounce 2s infinite;
+}
+
+.preview-container {
+    max-width: 300px;
+    margin: 20px auto;
+    position: relative;
+    display: none;
+    transform-origin: center;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform, opacity;
+}
+
+.preview-container.recognized {
+    transform: scale(0.7) translateY(-30px);
+    opacity: 0.8;
+}
+
+.preview-image {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    z-index: 1;
+}
+
+.preview-image:hover {
+    transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+/* 炫麗的動畫效果 */
+@keyframes fadeIn {
+    0% { 
+        opacity: 0; 
+        transform: translateY(30px) scale(0.9);
+    }
+    100% { 
+        opacity: 1; 
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes fadeOut {
+    0% { 
+        opacity: 1; 
+        transform: translateY(0) scale(1);
+    }
+    100% { 
+        opacity: 0; 
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* 刪除按鈕樣式 */
+.delete-button {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 8px rgba(220, 53, 69, 0.5);
+    z-index: 1000;
+    pointer-events: auto;
+}
+
+.delete-button:hover {
+    background: #c82333;
+    transform: scale(1.2) rotate(90deg);
+    box-shadow: 0 6px 12px rgba(220, 53, 69, 0.6);
+}
+
+/* 提交按鈕樣式 */
+.btn-primary {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 6px rgba(33, 150, 243, 0.3);
+}
+
+.btn-primary:hover:not(:disabled) {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(33, 150, 243, 0.4);
+}
+
+/* 訊息提示動畫 */
+.alert {
+    animation: fadeIn 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* 載入動畫 */
+.loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: rotate 1s linear infinite;
+    margin-right: 10px;
+}
+
+/* 淡入淡出類 */
+.fade-in {
+    animation: fadeIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.fade-out {
+    animation: fadeOut 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* 添加載入遮罩樣式 */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+/* 結果頁面樣式 */
+.result-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.result-image-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.result-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.result-box {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+.result-text {
+    color: #333;
+}
+
+/* 動畫效果 */
+.fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 按鈕懸停效果 */
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(33, 150, 243, 0.4);
+}
+
+/* 結果框動畫 */
+.result-box {
+    animation: slideIn 0.5s ease-out forwards;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
