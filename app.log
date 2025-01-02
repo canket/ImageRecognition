@@ -201,3 +201,22 @@
 2025-01-03 01:40:31,648 - INFO - 127.0.0.1 - - [03/Jan/2025 01:40:31] "GET / HTTP/1.1" 200 -
 2025-01-03 01:40:31,746 - INFO - 127.0.0.1 - - [03/Jan/2025 01:40:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
 2025-01-03 01:40:31,784 - INFO - 127.0.0.1 - - [03/Jan/2025 01:40:31] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-01-03 01:54:34,162 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 01:54:34,185 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 01:54:34,191 - INFO -  * Restarting with stat
+2025-01-03 01:54:36,794 - WARNING -  * Debugger is active!
+2025-01-03 01:54:36,812 - INFO -  * Debugger PIN: 231-445-698
+2025-01-03 01:54:41,054 - INFO - 127.0.0.1 - - [03/Jan/2025 01:54:41] "GET / HTTP/1.1" 200 -
+2025-01-03 01:54:41,704 - INFO - 127.0.0.1 - - [03/Jan/2025 01:54:41] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-03 01:54:41,715 - INFO - 127.0.0.1 - - [03/Jan/2025 01:54:41] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-01-03 01:56:58,806 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 01:56:58,807 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 01:56:58,814 - INFO -  * Restarting with stat
+2025-01-03 01:57:02,026 - WARNING -  * Debugger is active!
+2025-01-03 01:57:02,055 - INFO -  * Debugger PIN: 231-445-698
+2025-01-03 01:57:06,655 - INFO - 127.0.0.1 - - [03/Jan/2025 01:57:06] "GET / HTTP/1.1" 200 -
+2025-01-03 01:57:07,360 - INFO - 127.0.0.1 - - [03/Jan/2025 01:57:07] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-03 01:57:07,410 - INFO - 127.0.0.1 - - [03/Jan/2025 01:57:07] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-01-03 01:59:03,479 - INFO -  * Detected change in 'D:\\勤科大\\專題\\ImageRecognition\\app.py', reloading
