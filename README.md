@@ -31,6 +31,29 @@
 
 ## 安裝步驟
 
+### 🪟 Windows:
+
+1. 克隆專案：
+```bash
+git clone https://github.com/canket/ImageRecognition.git
+cd ImageRecognition
+```
+
+2. 安裝依賴：
+```bash
+pip install -r requirements.txt
+```
+
+3. 執行應用：
+```bash
+python app.py
+```
+
+4. 開啟瀏覽器訪問：
+```
+http://localhost:5000
+```
+
 ### 🐧 Linux:
 
 1. 克隆專案：
@@ -54,16 +77,35 @@ python app.py
 http://localhost:5000
 ```
 
-### 🪟 Windows:
+###  🍎macOS:
 
-1. 安裝 Python 3.8+
-2. 安裝 Flask 3.0.0+
-3. 執行應用：
+1. 安裝 Homebrew（如果尚未安裝）：
 ```bash
-python app.py
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-4. 開啟瀏覽器訪問：
+2. 安裝 Python（如果尚未安裝）：
+```bash
+brew install python@3.8
+```
+
+3. 克隆專案：
+```bash
+git clone https://github.com/canket/ImageRecognition.git
+cd ImageRecognition
+```
+
+4. 安裝依賴：
+```bash
+pip3 install -r requirements.txt
+```
+
+5. 執行應用：
+```bash
+python3 app.py
+```
+
+6. 開啟瀏覽器訪問：
 ```
 http://localhost:5000
 ```
