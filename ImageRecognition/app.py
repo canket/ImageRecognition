@@ -7,8 +7,8 @@ import imghdr
 
 # 配置常數
 UPLOAD_FOLDER = 'uploads'
-ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
-MAX_CONTENT_LENGTH = 16 * 1024 * 1024  # 16MB 限制
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif', 'bmp', 'tiff', 'webp','raw','dng','svg'}
+MAX_CONTENT_LENGTH = 32 * 1024 * 1024  # 調整為 32MB 限制
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -17,7 +17,7 @@ app.config['MAX_CONTENT_LENGTH'] = MAX_CONTENT_LENGTH
 # 設置日誌
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
+    format='%(asctime)s - %(name)s - %(message)s',
     handlers=[
         logging.FileHandler('app.log'),
         logging.StreamHandler()
@@ -35,7 +35,7 @@ def verify_image(file_stream):
     """驗證檔案是否為有效的圖片"""
     file_stream.seek(0)
     image_type = imghdr.what(file_stream)
-    return image_type in ['jpeg', 'png', 'gif']
+    return image_type in ['jpeg', 'png', 'gif', 'bmp', 'tiff', 'webp','raw','dng','svg','heic','heif','avif']
 
 def generate_unique_filename(original_filename):
     """生成唯一的檔案名"""
@@ -120,7 +120,7 @@ def too_large(e):
     logger.warning("上傳檔案超過大小限制")
     return jsonify({
         'success': False,
-        'message': '檔案太大！最大限制為 16MB'
+        'message': '檔案太大！最大限制為 32MB'
     }), 413
 
 @app.errorhandler(500)

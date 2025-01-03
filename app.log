@@ -220,3 +220,47 @@
 2025-01-03 01:57:07,360 - INFO - 127.0.0.1 - - [03/Jan/2025 01:57:07] "GET /static/css/styles.css HTTP/1.1" 200 -
 2025-01-03 01:57:07,410 - INFO - 127.0.0.1 - - [03/Jan/2025 01:57:07] "GET /static/js/scripts.js HTTP/1.1" 200 -
 2025-01-03 01:59:03,479 - INFO -  * Detected change in 'D:\\勤科大\\專題\\ImageRecognition\\app.py', reloading
+2025-01-03 21:16:31,020 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 21:16:31,021 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 21:16:31,026 - INFO -  * Restarting with stat
+2025-01-03 21:16:33,260 - WARNING -  * Debugger is active!
+2025-01-03 21:16:33,278 - INFO -  * Debugger PIN: 231-445-698
+2025-01-03 21:16:36,167 - INFO - 127.0.0.1 - - [03/Jan/2025 21:16:36] "GET / HTTP/1.1" 200 -
+2025-01-03 21:16:54,289 - INFO - 127.0.0.1 - - [03/Jan/2025 21:16:54] "POST /edit HTTP/1.1" 200 -
+2025-01-03 21:16:54,315 - INFO - 127.0.0.1 - - [03/Jan/2025 21:16:54] "[33mGET /uploads/20250103_211654_2025-01-03_015457.png HTTP/1.1[0m" 404 -
+2025-01-03 21:17:05,034 - INFO - 127.0.0.1 - - [03/Jan/2025 21:17:05] "POST /edit HTTP/1.1" 200 -
+2025-01-03 21:17:05,058 - INFO - 127.0.0.1 - - [03/Jan/2025 21:17:05] "[33mGET /uploads/20250103_211705_2025-01-03_015457.png HTTP/1.1[0m" 404 -
+2025-01-03 21:19:18,415 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 21:19:18,416 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 21:19:18,423 - INFO -  * Restarting with stat
+2025-01-03 21:19:20,727 - WARNING -  * Debugger is active!
+2025-01-03 21:19:20,744 - INFO -  * Debugger PIN: 231-445-698
+2025-01-03 21:19:23,697 - INFO - 127.0.0.1 - - [03/Jan/2025 21:19:23] "GET / HTTP/1.1" 200 -
+2025-01-03 21:19:24,081 - INFO - 127.0.0.1 - - [03/Jan/2025 21:19:24] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-03 21:19:24,092 - INFO - 127.0.0.1 - - [03/Jan/2025 21:19:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-01-03 21:19:36,436 - INFO - 成功上傳檔案: 20250103_211936_2025-01-03_015457.png
+2025-01-03 21:19:36,437 - INFO - 127.0.0.1 - - [03/Jan/2025 21:19:36] "POST /upload HTTP/1.1" 200 -
+2025-01-03 21:20:38,942 - INFO -  * Detected change in 'D:\\勤科大\\專題\\ImageRecognition\\app.py', reloading
+2025-01-03 21:20:47,597 - INFO -  * Restarting with stat
+2025-01-03 21:20:49,676 - werkzeug -  * Debugger is active!
+2025-01-03 21:20:49,701 - werkzeug -  * Debugger PIN: 231-445-698
+2025-01-03 21:21:04,804 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 21:21:04,805 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-01-03 21:21:04,809 - werkzeug -  * Restarting with stat
+2025-01-03 21:21:06,952 - werkzeug -  * Debugger is active!
+2025-01-03 21:21:06,968 - werkzeug -  * Debugger PIN: 231-445-698
+2025-01-03 21:21:09,812 - werkzeug - 127.0.0.1 - - [03/Jan/2025 21:21:09] "GET / HTTP/1.1" 200 -
+2025-01-03 21:21:10,234 - werkzeug - 127.0.0.1 - - [03/Jan/2025 21:21:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-03 21:21:10,241 - werkzeug - 127.0.0.1 - - [03/Jan/2025 21:21:10] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-01-03 21:31:29,529 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 21:31:29,530 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-01-03 21:31:29,534 - werkzeug -  * Restarting with stat
+2025-01-03 21:31:31,623 - werkzeug -  * Debugger is active!
+2025-01-03 21:31:31,640 - werkzeug -  * Debugger PIN: 231-445-698
+2025-01-03 21:31:46,859 - werkzeug - 127.0.0.1 - - [03/Jan/2025 21:31:46] "GET / HTTP/1.1" 200 -
+2025-01-03 21:31:47,308 - werkzeug - 127.0.0.1 - - [03/Jan/2025 21:31:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-03 21:31:47,312 - werkzeug - 127.0.0.1 - - [03/Jan/2025 21:31:47] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
