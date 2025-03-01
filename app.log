@@ -264,3 +264,214 @@
 2025-01-03 21:31:46,859 - werkzeug - 127.0.0.1 - - [03/Jan/2025 21:31:46] "GET / HTTP/1.1" 200 -
 2025-01-03 21:31:47,308 - werkzeug - 127.0.0.1 - - [03/Jan/2025 21:31:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
 2025-01-03 21:31:47,312 - werkzeug - 127.0.0.1 - - [03/Jan/2025 21:31:47] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-01-04 16:11:47,077 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-04 16:11:47,078 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-01-04 16:11:47,095 - werkzeug -  * Restarting with stat
+2025-01-04 16:11:50,009 - werkzeug -  * Debugger is active!
+2025-01-04 16:11:50,034 - werkzeug -  * Debugger PIN: 973-044-297
+2025-01-04 16:14:25,537 - werkzeug - 127.0.0.1 - - [04/Jan/2025 16:14:25] "GET / HTTP/1.1" 200 -
+2025-01-04 16:14:26,543 - werkzeug - 127.0.0.1 - - [04/Jan/2025 16:14:26] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-01-04 16:14:26,594 - werkzeug - 127.0.0.1 - - [04/Jan/2025 16:14:26] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-04 16:14:27,147 - werkzeug - 127.0.0.1 - - [04/Jan/2025 16:14:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-04 16:15:02,880 - __main__ - ÊàêÂäü‰∏äÂÇ≥Ê™îÊ°à: 20250104_161502_2024-12-28_110612.png
+2025-01-04 16:15:02,883 - werkzeug - 127.0.0.1 - - [04/Jan/2025 16:15:02] "POST /upload HTTP/1.1" 200 -
+2025-01-04 16:15:15,537 - werkzeug - 127.0.0.1 - - [04/Jan/2025 16:15:15] "GET / HTTP/1.1" 200 -
+2025-01-04 16:15:15,605 - werkzeug - 127.0.0.1 - - [04/Jan/2025 16:15:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-04 16:15:15,642 - werkzeug - 127.0.0.1 - - [04/Jan/2025 16:15:15] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-03-01 17:14:16,393 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:14:16,393 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:14:16,402 - werkzeug -  * Restarting with stat
+2025-03-01 17:14:17,607 - werkzeug -  * Debugger is active!
+2025-03-01 17:14:17,616 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:14:36,661 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:14:36] "GET / HTTP/1.1" 200 -
+2025-03-01 17:14:37,006 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:14:37] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-01 17:14:37,019 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:14:37] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 17:14:37,699 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:14:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 17:14:52,324 - __main__ - ¶®•\§W∂«¿…Æ◊: 20250301_171452_9e95981f-a8de-42f1-9adc-6944e6d30fb8.jpg
+2025-03-01 17:14:52,328 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:14:52] "POST /upload HTTP/1.1" 200 -
+2025-03-01 17:14:56,172 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:14:56] "GET / HTTP/1.1" 200 -
+2025-03-01 17:14:56,217 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:14:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:14:56,219 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:14:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-03-01 17:20:51,666 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:20:51,666 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:20:51,670 - werkzeug -  * Restarting with stat
+2025-03-01 17:20:52,937 - werkzeug -  * Debugger is active!
+2025-03-01 17:20:52,946 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:21:08,659 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:21:08] "GET / HTTP/1.1" 200 -
+2025-03-01 17:21:09,081 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:21:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:21:09,089 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:21:09] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-03-01 17:21:09,376 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:21:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 17:23:42,084 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:23:42,085 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:23:42,089 - werkzeug -  * Restarting with stat
+2025-03-01 17:23:43,353 - werkzeug -  * Debugger is active!
+2025-03-01 17:23:43,387 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:23:47,558 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:23:47] "GET / HTTP/1.1" 200 -
+2025-03-01 17:23:47,912 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:23:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:23:47,935 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:23:47] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 17:23:48,252 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:23:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 17:24:16,844 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:24:16] "GET / HTTP/1.1" 200 -
+2025-03-01 17:24:16,901 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:24:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:24:16,907 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:24:16] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-03-01 17:24:17,380 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:24:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 17:25:21,956 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:25:21,961 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:25:21,965 - werkzeug -  * Restarting with stat
+2025-03-01 17:25:23,205 - werkzeug -  * Debugger is active!
+2025-03-01 17:25:23,214 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:25:28,546 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:25:28] "GET / HTTP/1.1" 200 -
+2025-03-01 17:25:28,909 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:25:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:25:28,915 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:25:28] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 17:25:29,230 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:25:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 17:36:03,139 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:36:03,151 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:36:03,155 - werkzeug -  * Restarting with stat
+2025-03-01 17:36:04,485 - werkzeug -  * Debugger is active!
+2025-03-01 17:36:04,497 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:36:06,531 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:36:06] "GET / HTTP/1.1" 200 -
+2025-03-01 17:36:06,813 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:36:06] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 17:36:06,814 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:36:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:38:24,186 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:38:24,187 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:38:24,191 - werkzeug -  * Restarting with stat
+2025-03-01 17:38:25,650 - werkzeug -  * Debugger is active!
+2025-03-01 17:38:25,660 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:38:28,916 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:38:28] "GET / HTTP/1.1" 200 -
+2025-03-01 17:38:29,196 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:38:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:38:29,197 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:38:29] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 17:38:29,443 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:38:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 17:40:14,983 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:40:14,984 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:40:14,987 - werkzeug -  * Restarting with stat
+2025-03-01 17:40:16,195 - werkzeug -  * Debugger is active!
+2025-03-01 17:40:16,203 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:40:18,803 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:40:18] "GET / HTTP/1.1" 200 -
+2025-03-01 17:40:19,072 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:40:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:40:19,074 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:40:19] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 17:40:19,945 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:40:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 17:41:04,569 - __main__ - ¶®•\§W∂«¿…Æ◊: 20250301_174104_IMG_20250204_194109.jpg
+2025-03-01 17:41:04,576 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:41:04] "POST /upload HTTP/1.1" 200 -
+2025-03-01 17:44:38,457 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:44:38,458 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:44:38,461 - werkzeug -  * Restarting with stat
+2025-03-01 17:44:39,700 - werkzeug -  * Debugger is active!
+2025-03-01 17:44:39,709 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:44:41,524 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:44:41] "GET / HTTP/1.1" 200 -
+2025-03-01 17:44:41,782 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:44:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:44:41,788 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:44:41] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 17:45:04,376 - __main__ - ¶®•\§W∂«¿…Æ◊: 20250301_174504_IMG_20250204_194109.jpg
+2025-03-01 17:45:04,398 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:45:04] "POST /upload HTTP/1.1" 200 -
+2025-03-01 17:47:40,211 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:47:40,212 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:47:40,213 - werkzeug -  * Restarting with stat
+2025-03-01 17:47:40,673 - werkzeug -  * Debugger is active!
+2025-03-01 17:47:40,679 - werkzeug -  * Debugger PIN: 492-262-454
+2025-03-01 17:47:52,872 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:47:52] "GET / HTTP/1.1" 200 -
+2025-03-01 17:47:53,271 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:47:53] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 17:47:53,274 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:47:53] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-01 17:47:53,559 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:47:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 17:47:58,525 - __main__ - ¶®•\§W∂«¿…Æ◊: 20250301_174758_9e95981f-a8de-42f1-9adc-6944e6d30fb8.jpg
+2025-03-01 17:47:58,526 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:47:58] "POST /upload HTTP/1.1" 200 -
+2025-03-01 17:49:38,210 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:49:38,211 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:49:38,214 - werkzeug -  * Restarting with stat
+2025-03-01 17:49:39,497 - werkzeug -  * Debugger is active!
+2025-03-01 17:49:39,506 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:49:42,010 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:49:42] "GET / HTTP/1.1" 200 -
+2025-03-01 17:49:42,203 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:49:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:49:42,205 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:49:42] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 17:49:42,670 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:49:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 17:49:47,048 - __main__ - ¶®•\§W∂«¿…Æ◊: 20250301_174947_9e95981f-a8de-42f1-9adc-6944e6d30fb8.jpg
+2025-03-01 17:49:47,049 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:49:47] "POST /upload HTTP/1.1" 200 -
+2025-03-01 17:51:54,416 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:51:54,417 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:51:54,420 - werkzeug -  * Restarting with stat
+2025-03-01 17:51:55,729 - werkzeug -  * Debugger is active!
+2025-03-01 17:51:55,742 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:51:57,539 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:51:57] "GET / HTTP/1.1" 200 -
+2025-03-01 17:51:57,595 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:51:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:51:57,596 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:51:57] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 17:52:02,622 - __main__ - ¶®•\§W∂«¿…Æ◊: 20250301_175202_9e95981f-a8de-42f1-9adc-6944e6d30fb8.jpg
+2025-03-01 17:52:02,623 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:52:02] "POST /upload HTTP/1.1" 200 -
+2025-03-01 17:53:17,446 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:53:17,446 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:53:17,450 - werkzeug -  * Restarting with stat
+2025-03-01 17:53:18,772 - werkzeug -  * Debugger is active!
+2025-03-01 17:53:18,780 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:53:21,104 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:53:21] "GET / HTTP/1.1" 200 -
+2025-03-01 17:53:21,305 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:53:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:53:21,313 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:53:21] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 17:53:21,824 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:53:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 17:53:28,655 - __main__ - ¶®•\§W∂«¿…Æ◊: 20250301_175328_9e95981f-a8de-42f1-9adc-6944e6d30fb8.jpg
+2025-03-01 17:53:28,656 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:53:28] "POST /upload HTTP/1.1" 200 -
+2025-03-01 17:56:36,800 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:56:36,801 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:56:36,804 - werkzeug -  * Restarting with stat
+2025-03-01 17:56:38,114 - werkzeug -  * Debugger is active!
+2025-03-01 17:56:38,123 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:56:39,933 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:56:39] "GET / HTTP/1.1" 200 -
+2025-03-01 17:56:40,136 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:56:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:56:40,139 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:56:40] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 17:56:40,581 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:56:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 17:56:46,807 - __main__ - ¶®•\§W∂«¿…Æ◊: 20250301_175646_9e95981f-a8de-42f1-9adc-6944e6d30fb8.jpg
+2025-03-01 17:56:46,808 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:56:46] "POST /upload HTTP/1.1" 200 -
+2025-03-01 17:57:09,969 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:57:09,969 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:57:09,973 - werkzeug -  * Restarting with stat
+2025-03-01 17:57:11,245 - werkzeug -  * Debugger is active!
+2025-03-01 17:57:11,254 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:57:12,972 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:57:12] "GET / HTTP/1.1" 200 -
+2025-03-01 17:57:13,114 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:57:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:57:13,125 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:57:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-03-01 17:57:13,645 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:57:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 17:57:17,808 - __main__ - ¶®•\§W∂«¿…Æ◊: 20250301_175717_9e95981f-a8de-42f1-9adc-6944e6d30fb8.jpg
+2025-03-01 17:57:17,809 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:57:17] "POST /upload HTTP/1.1" 200 -
+2025-03-01 17:58:10,931 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 17:58:10,931 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 17:58:10,935 - werkzeug -  * Restarting with stat
+2025-03-01 17:58:12,203 - werkzeug -  * Debugger is active!
+2025-03-01 17:58:12,212 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 17:58:13,605 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:58:13] "GET / HTTP/1.1" 200 -
+2025-03-01 17:58:13,666 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:58:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 17:58:13,667 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:58:13] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 17:58:18,620 - __main__ - ¶®•\§W∂«¿…Æ◊: 20250301_175818_9e95981f-a8de-42f1-9adc-6944e6d30fb8.jpg
+2025-03-01 17:58:18,621 - werkzeug - 127.0.0.1 - - [01/Mar/2025 17:58:18] "POST /upload HTTP/1.1" 200 -
+2025-03-01 18:00:21,887 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 18:00:21,888 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 18:00:21,891 - werkzeug -  * Restarting with stat
+2025-03-01 18:00:23,219 - werkzeug -  * Debugger is active!
+2025-03-01 18:00:23,230 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 18:00:25,449 - werkzeug - 127.0.0.1 - - [01/Mar/2025 18:00:25] "GET / HTTP/1.1" 200 -
+2025-03-01 18:00:25,511 - werkzeug - 127.0.0.1 - - [01/Mar/2025 18:00:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 18:00:25,515 - werkzeug - 127.0.0.1 - - [01/Mar/2025 18:00:25] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 18:00:31,007 - __main__ - ¶®•\§W∂«¿…Æ◊: 20250301_180030_9e95981f-a8de-42f1-9adc-6944e6d30fb8.jpg
+2025-03-01 18:00:31,009 - werkzeug - 127.0.0.1 - - [01/Mar/2025 18:00:31] "POST /upload HTTP/1.1" 200 -
+2025-03-01 18:02:38,863 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-01 18:02:38,863 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-03-01 18:02:38,868 - werkzeug -  * Restarting with stat
+2025-03-01 18:02:40,157 - werkzeug -  * Debugger is active!
+2025-03-01 18:02:40,167 - werkzeug -  * Debugger PIN: 324-139-938
+2025-03-01 18:02:42,202 - werkzeug - 127.0.0.1 - - [01/Mar/2025 18:02:42] "GET / HTTP/1.1" 200 -
+2025-03-01 18:02:42,424 - werkzeug - 127.0.0.1 - - [01/Mar/2025 18:02:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-01 18:02:42,430 - werkzeug - 127.0.0.1 - - [01/Mar/2025 18:02:42] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-01 18:02:42,966 - werkzeug - 127.0.0.1 - - [01/Mar/2025 18:02:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-01 18:02:47,289 - __main__ - ¶®•\§W∂«¿…Æ◊: 20250301_180247_9e95981f-a8de-42f1-9adc-6944e6d30fb8.jpg
+2025-03-01 18:02:47,290 - werkzeug - 127.0.0.1 - - [01/Mar/2025 18:02:47] "POST /upload HTTP/1.1" 200 -

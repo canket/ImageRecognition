@@ -24,12 +24,12 @@
                     <div class="drop-zone-text">
                         <h4>拖放圖片到這裡</h4>
                         <p class="text-muted">或點擊上傳</p>
-                        <small class="text-muted">支援的格式：JPG、PNG、GIF</small>
+                        <small class="text-muted">支援的格式：應該是都可以</small>
                     </div>
                     <input type="file" 
                            name="image" 
                            id="fileInput" 
-                           accept="image/*" 
+                           accept="image/jpeg,image/png,image/gif,image/heic,image/heif" 
                            style="display: none;" 
                            required>
                 </div>
@@ -67,6 +67,9 @@
     </div>
 
     <!-- 載入 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/heic2any@0.0.4/dist/heic2any.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 </body>

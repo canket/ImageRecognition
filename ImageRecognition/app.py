@@ -3,11 +3,16 @@ import os
 from werkzeug.utils import secure_filename
 import logging
 from datetime import datetime
-import imghdr
+from PIL import Image
+import io
+from pillow_heif import register_heif_opener
+
+# 註冊 HEIF 開啟器
+register_heif_opener()
 
 # 配置常數
 UPLOAD_FOLDER = 'uploads'
-ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif', 'bmp', 'tiff', 'webp','raw','dng','svg'}
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif', 'bmp', 'tiff', 'webp', 'heic', 'heif','raw','dng'}
 MAX_CONTENT_LENGTH = 32 * 1024 * 1024  # 調整為 32MB 限制
 
 app = Flask(__name__)
@@ -33,9 +38,14 @@ def allowed_file(filename):
 
 def verify_image(file_stream):
     """驗證檔案是否為有效的圖片"""
-    file_stream.seek(0)
-    image_type = imghdr.what(file_stream)
-    return image_type in ['jpeg', 'png', 'gif', 'bmp', 'tiff', 'webp','raw','dng','svg','heic','heif','avif']
+    try:
+        file_stream.seek(0)
+        img = Image.open(io.BytesIO(file_stream.read()))
+        img.verify()
+        file_stream.seek(0)
+        return True
+    except Exception:
+        return False
 
 def generate_unique_filename(original_filename):
     """生成唯一的檔案名"""
